@@ -1,0 +1,18 @@
+.componyCont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.componyCont h2{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    color: #2d2d2d;
+}
+
+.componyCont img{
+    margin-top: 55px;
+    font-size: 16px;
+}
+

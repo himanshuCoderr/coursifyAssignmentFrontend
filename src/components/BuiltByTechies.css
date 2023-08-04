@@ -1,0 +1,62 @@
+.BuiltByTechiesCont{
+    width: 100vw;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuiltByTechiesMain{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 250px;
+    /* margin: auto ; */
+    /* background-color: aqua; */
+}
+
+ .BuiltByTechiesMain h2{
+    font-size: 37px;
+}
+
+ .BuiltByTechiesMain p{
+    font-size: 22px;
+}
+
+
+
+
+
+.BuiltByTechiesMain button {
+    font-size: 15px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 4px;
+    background-color: #3288e3;
+    color: #ffffff;
+    border: 2px solid #3288e3;
+    outline: none;
+    padding: 3px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    /* cursor: pointer; */
+  }
+  .BuiltByTechiesMain button:hover {
+    background-color: #ffffff;
+    color: #3288e3;
+    transition: all 0.4s;
+  }
+  /* .MainUp_btnCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainUp_btnCont span {
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: 10px;
+  } */

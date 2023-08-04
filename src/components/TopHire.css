@@ -1,0 +1,83 @@
+.topHireCont {
+  position: relative; /* Add this to establish a positioning context */
+  width: 100vw;
+  height: 1000px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.topHireCont::before {
+  content: " ";
+  display: block;
+  background-image: url(https://d383au3bye3rv1.cloudfront.net/static/dist/Geometric-Line-Shapes-fashion-style-seamless-background-52IBCYNB.jpg);
+  opacity: 0.08;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topHireMain {
+  width: 80vw;
+  height: 900px;
+  margin: 50px auto;
+}
+
+.topHireUp {
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topHireUp div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.topHireUp div h2 {
+  margin-bottom: 12px;
+  font-size: 34px;
+}
+
+.topHireDown {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.topHiredCard {
+    width: 30%;
+    height: 231px;
+    margin-top: 90px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linkedIcon {
+    width: 12px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.topHiredCard > img {
+  width: 130px;
+  /* height: 100px; */
+}
+.hiredMen {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-top: 10px; */
+}
+.hiredMen > div {
+  display: flex;
+  flex-direction: column;
+}
+.hiredMen > img {
+  width: 50px;
+  border-radius: 1000px;
+  margin-right: 10px;
+}

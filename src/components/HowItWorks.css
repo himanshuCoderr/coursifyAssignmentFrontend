@@ -1,0 +1,159 @@
+.HowItWorkCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  justify-content: center;
+  /* height: 100vh; */
+  margin: auto;
+  margin-top: 115px;
+  font-family: "Open Sans", sans-serif;
+}
+.HowItWorkContDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0px;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.HowItWorkCont h2 {
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  color: #2d2d2d;
+}
+.HowItWorkContLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 277px;
+    margin-right: 102px;
+    padding: 10px 30px;
+}
+.extraSpace {
+  width: 70px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #39a7f4;
+  margin-bottom: 20px;
+}
+.HowItWorkContLeft h4 {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.4px;
+  color: #39a7f4;
+}
+
+.HowItWorkContLeft p{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 100;
+}
+
+
+.sitBackContDiv{
+  display: flex;
+  height: fit-content;
+  padding: 60px 0px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #2d2d2d; */
+}
+
+.sitBackContRight img{
+  width: 85%;
+}
+
+
+.sitBackContLeft h4{
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.4px;
+  color: #39a7f4;
+}
+
+.sitBackContLeft p{
+  font-size: 20px;
+  color: #212529;
+  font-weight: 100;
+}
+
+.salaryAndRoleDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+  width: 100%;
+}
+.salaryAndRoleLeft{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* height: fit-content; */
+  height: 207px;
+}
+.salaryAndRoleLeft h4{
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.4px;
+  color: #39a7f4;
+}
+
+.salaryAndRoleLeft p{
+  font-size: 20px;
+  color: #212529;
+  font-weight: 100;
+}
+
+
+.salaryAndRoleRight img{
+  width: 100%;
+}
+
+
+.dedicatedTalentDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.dedicatedTalentLeft{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+  height: 181px;
+
+}
+
+.dedicatedTalentLeft h4{
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.4px;
+  color: #39a7f4;
+}
+
+.currentAndPastDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 60px 0px;
+  height: 350px;
+}
+.currentAndPastLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 231px;
+}
+.currentAndPastLeft h4{
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.4px;
+  color: #39a7f4;
+}
+
+.currentAndPastLeft p{
+  font-size: 18px;
+  color: #212529;
+  font-weight: 100;
+}
